@@ -1,0 +1,51 @@
+{
+  "name": "react-weather-app",
+  "version": "1.0.0",
+  "description": "A simple weather app using react and redux",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve -s dist",
+    "dev": "webpack-dev-server --open --mode development",
+    "build": "webpack --mode production"
+  },
+  "keywords": [
+    "react",
+    "redux"
+  ],
+  "author": "Daniel Charles Mwangila",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-transform-runtime": "^7.5.5",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.5.5",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.1.0",
+    "html-webpack-plugin": "^3.2.0",
+    "file-loader": "^4.1.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.38.0",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.4.1",
+    "@zendeskgarden/react-loaders": "^6.2.0",
+    "@zendeskgarden/react-theming": "^6.2.0",
+    "axios": "^0.19.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-redux": "^7.1.1",
+    "react-router-dom": "^5.0.1",
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0",
+    "serve": "^11.1.0",
+    "styled-components": "^4.3.2",
+    "image-webpack-loader": "^5.0.0"
+  }
+}

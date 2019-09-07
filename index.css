@@ -1,0 +1,49 @@
+.cFwtfj {
+    color: inherit;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.home, .about{
+    margin-top: 4%;
+}
+
+.img{
+    width: 40%;
+    height: 40%;
+}
+.fab{
+    font-size: 30px;
+}
+
+.fa-angular{
+    color:#fd7e14;
+}
+
+.fa-js-square{
+    color: #F0DB4F;
+}
+
+.fa-java{
+   color: #3FA0EF; 
+}
+
+.fa-php{
+    color: #1A74E2;
+}
+
+.social, .proglang{
+ list-style: none;
+}
+
+.social li, .proglang li {
+ float: left;
+ padding: 10px 12px;
+ text-decoration: none;
+}
+
+p{
+    margin-top: 8px;
+}
